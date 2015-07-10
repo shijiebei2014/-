@@ -70,25 +70,4 @@ function onComplete( err ){
 }
 */
 
-function bar(){ 
-	console.log("window bar");
-}
 
-function host(){ 
-	console.log( typeof bar );
-
-	/*
-	var bar = function(){ 
-		console.log("local bar");
-	};
-	*/
-}
-
-//host();
-
-function a(){ 
-		var b = "hello";
-		console.log( b );
-		var b = 123;
-   	}
-   	a();

@@ -20,10 +20,18 @@
         一类是err,则cb(err, ...);
 
 
-三.有关js,变量和方法的提升(hoisting或hosited)
+三.有关js,变量和方法的提升(hoisting或hosited),即在函数定义过程中(在编译的时候),会将后面申明的变量的定义,提前放到函数的最前面
    变量提升:如
+   	var b = "hello";
 	function a(){ 
-		var b = "hello";
 		alert( b );
-		b = 123;
+		var b = 123;
+   	}
+
+   	在编译的过程中,上述变成了:
+   	var b = "hello";
+   	function a(){	
+   		var b ;
+   		alert( b );//b等于undefined
+   		b = 123;
    	}
