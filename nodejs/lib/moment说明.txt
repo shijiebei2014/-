@@ -1,0 +1,9 @@
+1.moment.js,ISO8601默认的时间格式
+Date and time (current at page generation)
+expressed according to ISO 8601:
+Date:	2015-07-05
+Combined date and time in UTC:	2015-07-05T22:16:18+00:00
+2015-07-05T22:16:18Z
+Week:	2015-W27
+Date with week number:	2015-W27-7
+Ordinal date:	2015-186

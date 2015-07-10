@@ -1,0 +1,16 @@
+1.//判断一个对象是不是一个数组
+if (typeof Array.isArray === "undefined") {
+	Array.isArray = function (arg) {
+		return Object.prototype.toString.call(arg) === "[object Array]";
+	};
+}
+
+
+
+
+~:二进制数按位取反
+  如:-1,表示11(符号为正的表示0,为负的表示1),取反之后,就是0
+     -2,表示110,取反之后,就是001,即1
+
+  ~可以把可以转成数字的,转成数字;否则报错
+  !可以将数组转成Boolean型,并取反

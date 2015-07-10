@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+  	<h1>Hello, world!</h1>
+  	<a href="http://www.baidu.com">百度</a>
+  	<div class="container-fluid">
+		container-fluid布局容器  		
+  	</div>
+  	<div class="container">
+		container布局容器  		
+  	</div>
+
+  	表单控件默认是竖直排列
+  	<form style="width:800px;">
+  		<div class="form-group">
+  			<label for="username">username</label>
+  			<input name="username" id="username" type="text" class="form-control"/>
+  		</div>
+  		<div class="form-group">
+  			<label for="password">password</label>
+  			<input name="password" id="password" type="password" class="form-control"/>
+  		</div>	
+  		<div class="form-group">
+  			<label for="file">file</label>
+  			<input name="file" id="file" type="file" class="form-control"/>
+  		</div>
+  		<div class="form-group">
+  			<label for="sex">
+  				<input name="sex" id="sex" type="radio" class="form-control" value="man"/>男
+	  			<input name="sex" id="sex" type="radio" class="form-control" value="woman"/>女	
+  			</label>
+  		</div>
+  		<div class="form-group">
+  			<label for="habit">
+  				<input name="habit" id="habit" type="checkbox" class="form-control" value="football"/>足球
+	  			<input name="habit" id="habit" type="checkbox" class="form-control" value="basketball"/>篮球	
+  			</label>
+  		</div>
+  	</form>
+
+  	表单控件内联排列
+  	<form style="width:800px;" class="form-inline">
+  		<div class="form-group">
+  			<label for="username">username</label>
+  			<input name="username" id="username" type="text" class="form-control"/>
+  		</div>
+  		<div class="form-group">
+  			<label for="password">password</label>
+  			<input name="password" id="password" type="password" class="form-control"/>
+  		</div>	
+  		<div class="form-group">
+  			<label for="file">file</label>
+  			<input name="file" id="file" type="file" class="form-control"/>
+  		</div>
+  		<div class="form-group">
+  			<label for="sex">
+  				<input name="sex" id="sex" type="radio" class="form-control" value="man"/>男
+	  			<input name="sex" id="sex" type="radio" class="form-control" value="woman"/>女	
+  			</label>
+  		</div>
+  		<div class="form-group">
+  			<label for="habit">
+  				<input name="habit" id="habit" type="checkbox" class="form-control" value="football"/>足球
+	  			<input name="habit" id="habit" type="checkbox" class="form-control" value="basketball"/>篮球	
+  			</label>
+  		</div>
+  	</form>
+  	
+  	表单控件水平排列,采用栅格布局
+  	col-*-*,表示水平布局,内联
+  	control-label:表示label水平居右对齐
+  	<form style="width:800px;" class="form-horizontal">
+  		<div class="form-group">
+  			<label for="username" class="col-md-2 control-label">username</label>
+  			<div class="col-md-10">
+  				<input name="username" id="username" type="text" class="form-control"/>
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="password" class="col-md-2 control-label">password</label>
+  			<div class="col-md-10">
+  				<input name="password" id="password" type="password" class="form-control "/>
+  			</div>
+  		</div>	
+  		<div class="form-group">
+  			<label for="file" class="col-md-2 control-label">file</label>
+  			<div class="col-md-10">
+  				<input name="file" id="file" type="file" class="form-control"/>	
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="number" class="col-md-2 control-label">number</label>
+  			<div class="col-md-10">
+  				<input name="number" id="number" type="number" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="email" class="col-md-2 control-label">email</label>
+  			<div class="col-md-10">
+  				<input name="email" id="email" type="email" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="url" class="col-md-2 control-label">url</label>
+  			<div class="col-md-10">
+  				<input name="url" id="url" type="url" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="search" class="col-md-2 control-label">search</label>
+  			<div class="col-md-10">
+  				<input name="search" id="search" type="search" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="datetime" class="col-md-2 control-label">datetime</label>
+  			<div class="col-md-10">
+  				<input name="datetime" id="datetime" type="datetime" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="tel" class="col-md-2 control-label">tel</label>
+  			<div class="col-md-10">
+  				<input name="tel" id="tel" type="tel" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="color" class="col-md-2 control-label">color</label>
+  			<div class="col-md-10">
+  				<input name="color" id="color" type="color" class="form-control"/>		
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="select" class="col-md-2 control-label">select</label>
+  			<div class="col-md-10">
+  				<select name="select" id="select" class="form-control">	
+  					<option>1</option>
+  					<option>2</option>
+  					<option>3</option>
+  					<option>4</option>
+  				</select>
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<div class="col-md-offset-2 col-md-10">
+  				<label>
+  					<input type="radio" name="sex" value="man"/>男
+  				</label>
+  				<label>
+  					<input type="radio" name="sex" value="woman"/>女
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<div class="col-md-offset-2 col-md-5">
+  				<div class="checkbox">
+  					<label>
+		  				<input name="habit" id="habit" type="checkbox" value="football"/>足球
+	  				</label>
+	  				<label>
+	  					<input name="habit" id="habit" type="checkbox" value="basketball"/>篮球	
+	  				</label>
+  				</div>
+	  		</div>
+
+	  		<div class="col-md-5">
+				<label class="checkbox-inline">
+  					<input name="habit" id="habit" type="checkbox" value="football"/>足球
+				</label>
+				<label class="checkbox-inline">
+					<input name="habit" id="habit" type="checkbox" value="basketball"/>篮球	
+				</label>
+	  		</div>
+  		</div>
+  	</form>
+
+
+  	静态表单控件
+  	<form style="width:800px;">
+  		<div class="form-group">
+  			<label for="username" class="col-md-2">username</label>
+  			<div class="col-md-10">
+  				<p class="form-control-static">haha</p>
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<label for="password" class="col-md-2">password</label>
+  			<div class="col-md-10">
+  				<input name="password" id="password" type="password" class="form-control"/>	
+  			</div>
+  			
+  		</div>	
+  	</form>
+  	<br><br><br><br>
+  	/**********************************默认按钮**********************************/
+  	<br>
+  	<a href="javascript:void(0)" class="btn btn-default" role="button">aLink</a>
+  	<input type="button" class="btn btn-default" value="inputLink">
+  	<input type="submit" class="btn btn-default" value="submitLink">
+  	<button class="btn btn-default">buttonLink</button>
+  	<br>
+  	/**********************************预定义样式按钮**********************************/
+  	<br>
+  	<a href="javascript:void(0)" class="btn btn-primary" role="button">primaryLink</a>
+  	<a href="javascript:void(0)" class="btn btn-success" role="button">successLink</a>
+  	<a href="javascript:void(0)" class="btn btn-info" role="button">infoLink</a>
+  	<a href="javascript:void(0)" class="btn btn-warning" role="button">warningLink</a>
+  	<a href="javascript:void(0)" class="btn btn-danger" role="button">dangerLink</a>
+  	<a href="javascript:void(0)" class="btn btn-link" role="button">Link</a>
+  	<br>
+  	/**********************************图片**********************************/
+  	<br>
+  	<img src="http:qas.zhisiyun.com/img/gisiclouds_logo.png" class="img-circle" style="width:100px;height:120px;"/>
+  	<img src="http:qas.zhisiyun.com/img/gisiclouds_logo.png" class="img-rounded" style="width:100px;height:120px;"/>
+  	<img src="http:qas.zhisiyun.com/img/gisiclouds_logo.png" class="img-thumbnail" style="width:100px;height:120px;"/>
+
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

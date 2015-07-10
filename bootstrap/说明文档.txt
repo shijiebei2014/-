@@ -1,0 +1,19 @@
+一.排版与链接
+   1.)body 元素设置 background-color: #fff;
+   2.)使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数
+   3.)为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线
+   注意:
+   这些样式都能在 scaffolding.less 文件中找到对应的源码。
+
+二.单词缩写
+   1.)lg:large
+   2.)md:middle
+   3.)sm:small
+   4.)xs:extral small
+
+三.疑问?
+   1.)有关按钮<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</button>这些属性的意义?
+   解答:有关aria-*的意思,这对于读屏设备,通过这些属性的定义,代表标签所处的状态,如aris-haspopup,就表示当前按钮是可以弹出菜单项的;二aria-expanded,表示这个菜单是关闭状态,没有被展开
+
+四.nav导航与navbar导航条
+   class = navbar-*(除了navbar-form),都表示浮动效果,float:left(除了navbar-right,float:right;);

@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'wechat-api' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink E:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'wechat-api', null ]
+6 verbose cache add name=undefined spec="wechat-api" args=["wechat-api",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'wechat-api',
+7 verbose parsed url   path: 'wechat-api',
+7 verbose parsed url   href: 'wechat-api' }
+8 silly lockFile 424854a6-wechat-api wechat-api
+9 verbose lock wechat-api C:\Users\gisi_gg\AppData\Roaming\npm-cache\424854a6-wechat-api.lock
+10 silly lockFile 424854a6-wechat-api wechat-api
+11 silly lockFile 424854a6-wechat-api wechat-api
+12 verbose addNamed [ 'wechat-api', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f588fb23-wechat-api wechat-api@
+15 verbose lock wechat-api@ C:\Users\gisi_gg\AppData\Roaming\npm-cache\f588fb23-wechat-api.lock
+16 silly addNameRange { name: 'wechat-api', range: '*', hasData: false }
+17 verbose request where is /wechat-api
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c37532f102297842
+20 verbose url raw /wechat-api
+21 verbose url resolving [ 'https://registry.npmjs.org/', './wechat-api' ]
+22 verbose url resolved https://registry.npmjs.org/wechat-api
+23 verbose request where is https://registry.npmjs.org/wechat-api
+24 info trying registry request attempt 1 at 09:23:29
+25 http GET https://registry.npmjs.org/wechat-api
+26 http 200 https://registry.npmjs.org/wechat-api
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"3VQMROFNOB4ZHF3J2URD98MUT"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '39764',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 09 Jul 2015 01:23:41 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-nrt6125-NRT',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1436405021.604759,VS0,VE116',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'wechat-api', range: '*', hasData: true }
+29 silly addNameRange versions [ 'wechat-api',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.4.1',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.5.2',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.7.0',
+29 silly addNameRange     '1.7.1',
+29 silly addNameRange     '1.8.0',
+29 silly addNameRange     '1.8.1',
+29 silly addNameRange     '1.8.2',
+29 silly addNameRange     '1.8.3',
+29 silly addNameRange     '1.8.4',
+29 silly addNameRange     '1.8.5',
+29 silly addNameRange     '1.8.6',
+29 silly addNameRange     '1.9.0',
+29 silly addNameRange     '1.9.1',
+29 silly addNameRange     '1.9.2',
+29 silly addNameRange     '1.9.3' ] ]
+30 verbose addNamed [ 'wechat-api', '1.9.3' ]
+31 verbose addNamed [ '1.9.3', '1.9.3' ]
+32 silly lockFile 2ea29e71-wechat-api-1-9-3 wechat-api@1.9.3
+33 verbose lock wechat-api@1.9.3 C:\Users\gisi_gg\AppData\Roaming\npm-cache\2ea29e71-wechat-api-1-9-3.lock
+34 silly lockFile 65b833e4--wechat-api-wechat-api-1-9-3-tgz https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+35 verbose lock https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz C:\Users\gisi_gg\AppData\Roaming\npm-cache\65b833e4--wechat-api-wechat-api-1-9-3-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz',
+36 verbose addRemoteTarball   'f10963f49f5f658166d9fca34a95735ab5f436d2' ]
+37 info retry fetch attempt 1 at 09:23:33
+38 verbose fetch to= C:\Users\gisi_gg\AppData\Local\Temp\npm-6788-2LpIls1E\registry.npmjs.org\wechat-api\-\wechat-api-1.9.3.tgz
+39 http GET https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+40 http 200 https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+41 silly lockFile 65b833e4--wechat-api-wechat-api-1-9-3-tgz https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+42 silly lockFile 65b833e4--wechat-api-wechat-api-1-9-3-tgz https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+43 silly lockFile 2ea29e71-wechat-api-1-9-3 wechat-api@1.9.3
+44 silly lockFile 2ea29e71-wechat-api-1-9-3 wechat-api@1.9.3
+45 silly lockFile f588fb23-wechat-api wechat-api@
+46 silly lockFile f588fb23-wechat-api wechat-api@
+47 error Error: shasum check failed for C:\Users\gisi_gg\AppData\Local\Temp\npm-6788-2LpIls1E\registry.npmjs.org\wechat-api\-\wechat-api-1.9.3.tgz
+47 error Expected: f10963f49f5f658166d9fca34a95735ab5f436d2
+47 error Actual:   e413740b0d71eee58af0741b40b3540acb850ffc
+47 error From:     https://registry.npmjs.org/wechat-api/-/wechat-api-1.9.3.tgz
+47 error     at E:\Program Files (x86)\nodejs\node_modules\npm\node_modules\sha\index.js:38:8
+47 error     at ReadStream.<anonymous> (E:\Program Files (x86)\nodejs\node_modules\npm\node_modules\sha\index.js:85:7)
+47 error     at ReadStream.emit (events.js:117:20)
+47 error     at _stream_readable.js:938:16
+47 error     at process._tickCallback (node.js:419:13)
+48 error If you need help, you may report this *entire* log,
+48 error including the npm and node versions, at:
+48 error     <http://github.com/npm/npm/issues>
+49 error System Windows_NT 6.2.9200
+50 error command "E:\\Program Files (x86)\\nodejs\\\\node.exe" "E:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "wechat-api"
+51 error cwd D:\学习\nodejs\lib
+52 error node -v v0.10.30
+53 error npm -v 1.4.21
+54 verbose exit [ 1, true ]
